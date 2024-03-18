@@ -137,6 +137,7 @@ class QubeBaseEnv(gym.Env):
                 led = [1.0, 0.0, 0.0]  # Red
             else:
                 led = [0.0, 1.0, 0.0]  # Green
+        #print(led)
         return led
 
     def step(self, action):

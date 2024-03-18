@@ -3,6 +3,7 @@ from __future__ import print_function
 from __future__ import division
 
 import gym
+import gym_brt
 import time
 import argparse
 import numpy as np
